@@ -18,3 +18,10 @@ body{
     background-color: hsl(0, 0%, 100%);
     border-radius: 30px;
 }
+.container div:nth-child(1){
+    padding: 30px;
+}
+.container div:nth-child(1) img{
+    width: 100%;
+    border-radius: 10px;
+}
