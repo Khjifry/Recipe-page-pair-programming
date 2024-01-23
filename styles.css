@@ -26,6 +26,15 @@ body {
   width: 100%;
   border-radius: 10px;
 }
+@media screen and (max-width: 425px) {
+    body{
+        padding: 100px 30px;
+    }
+    .container div:nth-child(1) {
+      padding: 15px;
+    }
+  }
+  
 @media screen and (max-width: 375px) {
   body {
     padding: 0;
