@@ -51,6 +51,7 @@ body {
 
         td.amount {
             color: brown;
+          font-weight: bold;
         }
 
 @media screen and (max-width: 425px) {
