@@ -38,6 +38,21 @@ body {
   color: hsl(24, 5%, 18%);
 }
 
+  table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td {
+            padding: 20px; 
+            text-align: left;
+            border-bottom: 1px solid #000; 
+        }
+
+        td.amount {
+            color: brown;
+        }
+
 @media screen and (max-width: 425px) {
     body{
         padding: 100px 30px;
