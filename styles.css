@@ -4,7 +4,7 @@
   border: 0;
   outline: 0;
   box-sizing: border-box;
-  font-family: 'Young Serif' sans-serif;
+  font-family: "Young Serif" sans-serif;
 }
 body {
   background-color: hsl(30, 54%, 90%);
@@ -39,22 +39,22 @@ body {
   color: hsl(24, 5%, 18%);
 }
 
-.section{
+.section {
   margin-left: 50px;
 }
 
-.para{
+.para {
   font-weight: 400;
   color: hsl(14, 45%, 36%);
   font-size: 30px;
   margin-bottom: 15px;
 }
 
-ul{
+ul {
   list-style-type: none;
 }
 
-li{
+li {
   position: relative;
   font-size: 18px;
   padding-left: 40px;
@@ -63,12 +63,11 @@ li{
 }
 
 li::before {
-  content: '•'; 
+  content: "•";
   color: hsl(14, 45%, 36%);
   position: absolute;
   left: 0;
 }
-
 
 table {
   border-collapse: collapse;
@@ -86,6 +85,80 @@ td.amount {
   font-weight: bold;
 }
 
+.section {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.section__heading {
+  color: var(--nutmeg-color);
+  font-weight: 400;
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.section__list {
+  margin-left: 25px;
+  color: hsl(30, 10%, 34%);
+}
+.list__item {
+  padding-left: 10px;
+}
+.list__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+.item__title {
+  margin-right: 4px;
+}
+
+.container {
+  width: 80%;
+  max-width: 700px;
+  margin: 30px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.dish-preview__img {
+  width: 100%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.dish-info-section__heading {
+  color: var(--dark-charcoal-color);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 32px;
+}
+
+.section__description {
+  color: hsl(30, 10%, 34%);
+}
+
+.preparation-time-section {
+  background-color: hsl(330, 100%, 98%);
+  padding: 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.preparation-time-section__heading {
+  color: hsl(332, 51%, 32%);
+  margin-bottom: 10px;
+}
+
 @media screen and (max-width: 425px) {
   body {
     padding: 100px 30px;
@@ -93,16 +166,16 @@ td.amount {
   .container div:nth-child(1) {
     padding: 15px;
   }
-  .section{
+  .section {
     margin-left: 15px;
   }
 
-  .para{
-      font-size: 30px;
+  .para {
+    font-size: 30px;
   }
 
-  li{
-      padding-left: 18px;
+  li {
+    padding-left: 18px;
   }
 }
 
