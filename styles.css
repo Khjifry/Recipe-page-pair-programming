@@ -85,26 +85,6 @@ td.amount {
   font-weight: bold;
 }
 
-@media screen and (max-width: 425px) {
-  body {
-    padding: 100px 30px;
-  }
-  .container div:nth-child(1) {
-    padding: 15px;
-  }
-  .section {
-    margin-left: 15px;
-  }
-
-  .para {
-    font-size: 30px;
-  }
-
-  li {
-    padding-left: 18px;
-  }
-}
-
 .section3 {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -154,7 +134,7 @@ td.amount {
 }
 
 .dish-info-section__heading {
-  color: var(--dark-charcoal-color);
+  color: hsl(30, 10%, 34%);
   margin-top: 10px;
   margin-bottom: 10px;
   font-size: 32px;
@@ -179,6 +159,25 @@ td.amount {
   margin-bottom: 10px;
 }
 
+@media screen and (max-width: 425px) {
+  body {
+    padding: 100px 30px;
+  }
+  .container div:nth-child(1) {
+    padding: 15px;
+  }
+  .section {
+    margin-left: 15px;
+  }
+
+  .para {
+    font-size: 30px;
+  }
+
+  li {
+    padding-left: 18px;
+  }
+}
 
 @media screen and (max-width: 375px) {
   body {
